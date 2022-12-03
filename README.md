@@ -1,4 +1,4 @@
-PROJECT: GAN-MAL active learning framework
+PROJECT: t-ASAL active learning framework
 
 1. Install
 	pip install -r requirements.txt
