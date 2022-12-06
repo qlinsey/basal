@@ -14,7 +14,7 @@ from gutils import *
 import torch.nn.functional as F
 
 
-class GanMaler:
+class Basaler:
     def __init__(self, args, device, label_list):
         self.args = args
         self.device = device
