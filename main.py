@@ -3,7 +3,7 @@ import csv
 from gutils import *
 from dbbuilder import *
 from model import *
-from ganmaler import *
+from basal import *
 import torch
 import io
 import torch.nn.functional as F
@@ -156,7 +156,7 @@ def main(args):
             transformer = torch.nn.DataParallel(transformer)
     if args.train_flag:
         print("training...")
-        gmal = basaler(args, device, label_list)
+        gmal = Basaler(args, device, label_list)
         (
             val_accuracy,
             generator,
