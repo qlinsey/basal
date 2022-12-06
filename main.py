@@ -156,7 +156,7 @@ def main(args):
             transformer = torch.nn.DataParallel(transformer)
     if args.train_flag:
         print("training...")
-        gmal = GanMaler(args, device, label_list)
+        gmal = basaler(args, device, label_list)
         (
             val_accuracy,
             generator,
