@@ -1,4 +1,4 @@
-PROJECT: t-ASAL active learning framework
+PROJECT: B-ASAL active learning framework
 
 1. Install
 	pip install -r requirements.txt
